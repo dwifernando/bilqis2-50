@@ -3736,9 +3736,8 @@ const unsigned char epd_bitmap_cisss__56_ [] PROGMEM = {
 	0xff, 0xff, 0xff, 0xff, 0x87, 0x00, 0x50, 0x00, 0x67, 0x80, 0x30, 0x3f, 0xff, 0xff, 0xff, 0xff
 };
 
-// Array of all bitmaps for convenience. (Total bytes used to store images in PROGMEM = 31200)
-const int epd_bitmap_allArray_LEN = 55;
-const unsigned char* epd_bitmap_allArray[55] = {
+
+const unsigned char* photos[55] = {
   epd_bitmap_cisss__1_,
   epd_bitmap_cisss__2_,
 	epd_bitmap_cisss__3_,
