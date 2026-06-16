@@ -2880,9 +2880,7 @@ const unsigned char epd_bitmap_cakee43 [] PROGMEM = {
 	0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff
 };
 
-// Array of all bitmaps for convenience. (Total bytes used to store images in PROGMEM = 44720)
-const int epd_bitmap_allArray_LEN = 43;
-const unsigned char* epd_bitmap_allArray[43] = {
+const unsigned char* cakes[43] = {
 	epd_bitmap_cakee01,
 	epd_bitmap_cakee02,
 	epd_bitmap_cakee03,
